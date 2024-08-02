@@ -42,7 +42,7 @@ const Index = () => {
               placeholder="Add a new todo"
               onKeyPress={(e) => e.key === "Enter" && addTodo()}
             />
-            <Button onClick={addTodo} className="bg-green-500 hover:bg-green-600 text-white">Add</Button>
+            <Button onClick={addTodo} className="bg-yellow-500 hover:bg-yellow-600 text-white">Add</Button>
           </div>
           <ul className="space-y-2">
             {todos.map((todo) => (
